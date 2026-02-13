@@ -23,8 +23,9 @@ public class StaffingAction {
 	// @Id
 	// @GeneratedValue(strategy =GenerationType.SEQUENCE,generator= "opportunity_id_seq)
 	private Long id;
+	private String staffingActionName;
 
-
+/*
 
 	xsd:element name="StaffingActionInfo">
 				<xsd:complexType>
@@ -120,5 +121,5 @@ public class StaffingAction {
 			
 		}
 
-
+*/
 }

@@ -23,5 +23,7 @@ public class StaffingSupplier {
 	// @Id
 	// @GeneratedValue(strategy =GenerationType.SEQUENCE,generator= "opportunity_id_seq)
 	private Long id;
+	private String StaffingSupplierName;
+	
 
 }

@@ -22,6 +22,9 @@ public class StaffingShift {
 	// @Id
 	// @GeneratedValue(strategy =GenerationType.SEQUENCE,generator= "opportunity_id_seq)
 	private Long id;
+    private String comments;
+
+	/*
 		<xsd:sequence>
 			<xsd:element name="Id" type="EntityIdType" minOccurs="0"/>
 			<xsd:element name="Name" type="xsd:string" minOccurs="0"/>
@@ -63,7 +66,7 @@ public class StaffingShift {
 	</xsd:simpleType>
 
 
-
+*/
 
 
 

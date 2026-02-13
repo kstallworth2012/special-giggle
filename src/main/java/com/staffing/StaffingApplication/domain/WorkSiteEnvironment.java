@@ -22,8 +22,13 @@ public class WorkSiteEnvironment {
 	// @Id
 	// @GeneratedValue(strategy =GenerationType.SEQUENCE,generator= "opportunity_id_seq)
 	private Long id;
-			<xsd:element name="EnvironmentName" type="xsd:string" minOccurs="0"/>
-			<xsd:element name="EnvironmentDescription" type="xsd:string" minOccurs="0"/>
+  private String EnvironmentDescription;
+  private String EnvironmentName;
+
+  
+	/*
+			<xsd:element name="" type="xsd:string" minOccurs="0"/>
+			<xsd:element name="" type="xsd:string" minOccurs="0"/>
 			<xsd:element name="EnvironmentConsideration" minOccurs="0" maxOccurs="unbounded">
 				<xsd:complexType>
 					<xsd:simpleContent>
@@ -50,6 +55,6 @@ public enum EnvironmentConsideration{
 
 
 }
-
+*/
 
 }

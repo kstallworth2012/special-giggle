@@ -43,7 +43,7 @@ public class StaffingAssignment {
 								
 
 
-
+/*
 					//JobInformation
 
 						private String JobTitle" type="xsd:string" minOccurs="0"/>
@@ -100,4 +100,13 @@ public enum ContractStatus{
 			
 
 }
+
+
+*/
+
+
+
+
+
+						
 }

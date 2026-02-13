@@ -33,8 +33,8 @@ public class StaffingOrder {
 	// object StaffingPosition,
 	private String OfferRequirements;
 	private String OrderComments;
-	private KnownOrderStatus orderStatusType; 
-    private KnownOrderType orderType; 
+	//private KnownOrderStatus orderStatusType; 
+    //private KnownOrderType orderType; 
 
 
 

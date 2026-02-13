@@ -22,6 +22,11 @@ public class WorkSite {
 	// @Id
 	// @GeneratedValue(strategy =GenerationType.SEQUENCE,generator= "opportunity_id_seq)
 	private Long id;
+	private String WorkSiteName;
+	private String WorkSiteDetail;
+/*
+
+
 		<xsd:element name="WorkSiteName" type="xsd:string" minOccurs="0"/>
 			<xsd:element name="WorkSiteDetail" minOccurs="0" maxOccurs="unbounded">
 			<xsd:element name="PostalAddress" type="PostalAddressType" minOccurs="0"/>
@@ -37,4 +42,6 @@ public class WorkSite {
 							<xsd:element name="Description" type="xsd:string" minOccurs="0"/>
 			<xsd:element name="ParkingInstructions" type="xsd:string" minOccurs="0"/>
 
+
+*/
 }
